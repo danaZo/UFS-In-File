@@ -1,5 +1,5 @@
 Exercise number 7 : unix file system
-Submitted by: Dana Zorohov 207817529, Noam Vanunu 318995156.
+by: Dana Zorohov, Noam Vanunu.
 
 BONUS:
 we implemented our errno, called 'myErrno'.
