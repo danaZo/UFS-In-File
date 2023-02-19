@@ -1,0 +1,17 @@
+Exercise number 7 : unix file system
+Submitted by: Dana Zorohov 207817529, Noam Vanunu 318995156.
+
+BONUS:
+we implemented our errno, called 'myErrno'.
+myErrno is a variable that looks like it is global,
+but in fact exists once per thread—i.e., it lives in thread-local storage.
+to to so, we defined the variable with the keyword _Thread_local that is used to
+define thread-local variables.   
+
+C++11 introduces the thread_local[2] keyword which can be used in the following cases:
+-Namespace level (global) variables
+-File static variables
+-Function static variables
+-Static member variables
+
+To sum up, we implemented both of the bonuses, we created our errno with thread local storage.
